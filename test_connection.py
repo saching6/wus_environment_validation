@@ -2,21 +2,9 @@ import requests
 import json
 import re
 
-# prod_api_url = "http://wusreport.com:5005"
-# prod_url = "http://wusreport.com:3000"
-
-
-# alpha_url = "https://test.wusreport.com:3000"
-# test_api_url = "https://test.wusreport.com:5001"
-# test_admin_url = "https://test.wusreport.com:5003"
-
 alpha_url = "http://alpha.wusreport.com"
 alpha_api_url = "http://alpha.wusreport.com:5001"
 alpha_admin_url = "http://alpha.wusreport.com:5003"
-
-# local_url = "http://alpha.wusreport.com"
-# local_api_url = "http://alpha.wusreport.com:5001"
-# alpha_admin_url = "http://alpha.wusreport.com:5003"
 
 input_email = input("Please enter your email: " )
 
