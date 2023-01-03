@@ -2,9 +2,15 @@ import requests
 import json
 import re
 
-alpha_url = "http://alpha.wusreport.com"
-alpha_api_url = "http://alpha.wusreport.com:5001"
-alpha_admin_url = "http://alpha.wusreport.com:5003"
+
+
+test_url = "https://test.wusreport.com"
+test_api_url = "https://test.wusreport.com:5001"
+test_admin_url = "https://test.wusreport.com:5003"
+
+prod_url = "https://wusreport.com"
+prod_api_url = "https://wusreport.com:5001"
+prod_admin_url = "https://wusreport.com:5003"
 
 input_email = input("Please enter your email: " )
 
@@ -12,7 +18,7 @@ endpoint = "/test_connection"
 email_endpoint = "/testEmail"
  ## Beta/Test Connection 
 print("\n\n\n************************* TEST URL VALIDATION ***********************************")
-response = requests.get(alpha_url)
+response = requests.get(test_url)
 if response.status_code == 200:
     print('Wake Up Safe website works')
 else:
@@ -23,10 +29,10 @@ print("------------------------------------------------------------------")
 
 print("\n\nSending request to backend API")
 try:
-    response = requests.post(alpha_api_url + endpoint, json={"type": "initial"})
+    response = requests.post(test_api_url + endpoint, json={"type": "initial"})
     if response.status_code == 200: 
         print("Successful Response. Sending Acknowledgment ... ")
-        ack_response = requests.post(alpha_api_url + endpoint, json={"type":"ack"})
+        ack_response = requests.post(test_api_url + endpoint, json={"type":"ack"})
         if ack_response.status_code==200:
             print("Successful. Received Acknowledgment Response... ")
         else:
@@ -51,7 +57,7 @@ except requests.exceptions.ConnectionError as e:
 ## TEST EMAIL Connection 
 print("\n\n************************* TESTING EMAIL (TEST) SERVER *************************")
 try:
-    response = requests.post(alpha_admin_url + email_endpoint, json={"email": input_email})
+    response = requests.post(test_admin_url + email_endpoint, json={"email": input_email})
     if response.status_code ==200:
         print("Successful. Communication with Email server established")
     else:
@@ -69,7 +75,7 @@ except requests.exceptions.ConnectionError as e:
 
 
 print("\n\n\************************* PRODUCTION URL VALIDATION ***********************************")
-response = requests.get(alpha_url)
+response = requests.get(prod_url)
 if response.status_code == 200:
     print('Wake Up Safe website works')
 else:
@@ -80,10 +86,10 @@ print("------------------------------------------------------------------")
 
 print("\n\nSending request to backend API")
 try:
-    response = requests.post(alpha_api_url + endpoint, json={"type": "initial"})
+    response = requests.post(prod_api_url + endpoint, json={"type": "initial"})
     if response.status_code == 200: 
         print("Successful Response. Sending Acknowledgment ... ")
-        ack_response = requests.post(alpha_api_url + endpoint, json={"type":"ack"})
+        ack_response = requests.post(prod_api_url + endpoint, json={"type":"ack"})
         if ack_response.status_code==200:
             print("Successful. Received Acknowledgment Response... ")
         else:
@@ -108,7 +114,7 @@ except requests.exceptions.ConnectionError as e:
 
 print("************************* TESTING EMAIL (PRODUCTION) SERVER *************************")
 try:
-    response = requests.post(alpha_admin_url + email_endpoint, json={"email": input_email})
+    response = requests.post(prod_admin_url + email_endpoint, json={"email": input_email})
     if response.status_code ==200:
         print("Successful. Communication with Email server established")
     else:
