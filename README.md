@@ -30,6 +30,8 @@ If there is an issue establishing the connection, you will see an error (example
 <img width="1042" alt="image" src="https://user-images.githubusercontent.com/23667069/210029662-b7f40d91-cfbc-4fea-8fc9-a032363bcc4c.png">
 
 **Sample of the test email**
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/23667069/210497848-33286280-c05d-418e-a1e7-b8d9d4f5688a.png">
+
 
 
 Once you have finished running this script please fill out this <a href="https://forms.gle/TSxQupnFK53GmEBz7" target="_blank">form</a>
