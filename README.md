@@ -15,14 +15,17 @@
 2. Once you have finished running this script please fill out this <a href="https://forms.gle/TSxQupnFK53GmEBz7" target="_blank">form</a>. If you see any error messsages, please put them in this form.  
 
 ### Output
-You will be asked to enter your email address (to verify if the WUS email server is able to send you emails) 
-This script will test the connection to the following:
-- Wake Up Safe test website. 
-- Wake Up Safe test API
-- Wake Up Safe production website
-- Wake Up Safe production API
 
-Additionally, you will receive two test emails one from our test server and one from our production server. 
+This script will test the connection to the following:
+1. Wake Up Safe test website. 
+2. Wake Up Safe test API
+3. Wake Up Safe production website
+4. Wake Up Safe production API
+5. Wake Up Safe test Email server
+6. Wake Up Safe production Email server
+
+You will be asked to enter your email address for 5 and 6(to verify if the WUS email server is able to send you emails). You should see a command line output with Success or Error messages for each of these steps.
+For 5 adn 6, you will also receive two test emails one from our test server and one from our production server. 
 
 If all tests pass you will see an success message in your command line as shown in the following image. You can also find a screenshot of a test email that you will receive from the wake up safe email server. 
 
