@@ -33,7 +33,7 @@ _You will be asked to enter your organizational email address as soon as you run
 You should see a command line output with Success or Error messages for each of these steps.
 For 3 and 6, you will also receive two test emails one from our test server and one from our production server. 
 
-If all tests pass you will see an success message in your command line as shown in the following image. You can also find a screenshot of a test email that you will receive from the wake up safe email server. 
+If all tests pass you will see a success message in your command line as shown in the following image. We have also provided a screenshot of the test email that you will receive from the wake up safe email server. 
 
 **Success Message**<br>
 <img width="756" alt="image" src="https://user-images.githubusercontent.com/23667069/211047939-1ed4bad9-604d-40a2-ae7e-9fa6503916de.png">
