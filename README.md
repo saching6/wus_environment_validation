@@ -1,6 +1,6 @@
 # Wake Up Safe Connection Test
 
-This test is to verify if the hospital network is able to communicate with the Wake Up Safe website. The script will run tests to check if your hospital systems are able to access our **beta**__ and **production**__ servers. Please report any errors or issues in the feedback form.
+This test is to verify if the hospital network is able to communicate with the Wake Up Safe website. The script will run tests to check if your hospital systems are able to access our __**beta**__ and __**production**__ servers. Please report any errors or issues in the feedback form.
 
 This script will test access to the following:
 
@@ -40,7 +40,7 @@ If all tests pass you will see an success message in your command line as shown 
 If there is an issue establishing the connection, you will see an error (example shown below). Please reach out to the Wake Up Safe support team with the error message to get it resolved. 
 
 **Error Message**
-<img width="1042" alt="image" src="https://user-images.githubusercontent.com/23667069/210029662-b7f40d91-cfbc-4fea-8fc9-a032363bcc4c.png">
+<img width="1433" alt="image" src="https://user-images.githubusercontent.com/23667069/211054383-fc38d544-86db-46f5-8199-709a814ef052.png">
 
 **Sample of the test email**
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/23667069/210497848-33286280-c05d-418e-a1e7-b8d9d4f5688a.png">
