@@ -7,10 +7,13 @@
 
 
 ### Steps to test the connection with Wake Up Safe servers
-Clone this repository and run the following command
-```
-python test_connection.py
-````
+
+1. Clone this repository and run the following command
+  ```
+  python test_connection.py
+  ````
+2. Once you have finished running this script please fill out this <a href="https://forms.gle/TSxQupnFK53GmEBz7" target="_blank">form</a>
+
 ### Output
 You will be asked to enter your email address (to verify if the WUS email server is able to send you emails) 
 This script will test the connection to the following:
@@ -29,6 +32,8 @@ If all tests pass you will see an success message in your command line as shown 
 If there is an issue establishing the connection, you will see an error (example shown below). Please reach out to the Wake Up Safe support team with the error message to get it resolved. 
 
 **Error Message**
+Please copy this error in the feedback form (Step 2)
+
 <img width="1042" alt="image" src="https://user-images.githubusercontent.com/23667069/210029662-b7f40d91-cfbc-4fea-8fc9-a032363bcc4c.png">
 
 **Sample of the test email**
@@ -36,4 +41,3 @@ If there is an issue establishing the connection, you will see an error (example
 
 
 
-Once you have finished running this script please fill out this <a href="https://forms.gle/TSxQupnFK53GmEBz7" target="_blank">form</a>
