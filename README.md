@@ -28,6 +28,8 @@ This script will test access to the following:
 ### Output
 
 _You will be asked to enter your organizational email address as soon as you run the script. This is to test the accessibility and availailibility of our email service._ 
+
+
 You should see a command line output with Success or Error messages for each of these steps.
 For 3 and 6, you will also receive two test emails one from our test server and one from our production server. 
 
