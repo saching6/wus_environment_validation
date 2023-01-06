@@ -25,7 +25,7 @@ This script will test the connection to the following:
 6. Wake Up Safe production Email server
 
 You will be asked to enter your email address for 5 and 6(to verify if the WUS email server is able to send you emails). You should see a command line output with Success or Error messages for each of these steps.
-For 5 adn 6, you will also receive two test emails one from our test server and one from our production server. 
+For 5 and 6, you will also receive two test emails one from our test server and one from our production server. 
 
 If all tests pass you will see an success message in your command line as shown in the following image. You can also find a screenshot of a test email that you will receive from the wake up safe email server. 
 
