@@ -1,6 +1,6 @@
 # Wake Up Safe Connection Test
 
-This test is to verify if the hospital network is able to communicate with the Wake Up Safe website. The script will run tests to check if your hospital systems are able to access our **beta**__ and **production**__ servers. Please report any errors or issues in the feedback form [#feedback]
+This test is to verify if the hospital network is able to communicate with the Wake Up Safe website. The script will run tests to check if your hospital systems are able to access our **beta**__ and **production**__ servers. Please report any errors or issues in the feedback form.
 
 This script will test access to the following:
 
@@ -23,7 +23,7 @@ This script will test access to the following:
   ```
   python test_connection.py
   ````
-2. (#feedback) Once you have finished running this script please fill out this <a href="https://forms.gle/TSxQupnFK53GmEBz7" target="_blank">form</a>. If you see any error messsages, please put them in this form.  
+2. **Feedback:** Once you have finished running this script please fill out this <a href="https://forms.gle/TSxQupnFK53GmEBz7" target="_blank">form</a>. If you see any error messsages, please put them in this form.  
 
 ### Output
 
