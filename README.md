@@ -1,6 +1,6 @@
 # Wake Up Safe Connection Test
 
-This test is to verify if the hospital network is able to communicate with the Wake Up Safe website. The script will run tests to check if your hospital systems are able to access our __**beta**__ and __**production**__ servers. Please report any errors or issues in the feedback form.
+This test is to verify if the hospital network is able to communicate with the Wake Up Safe website. The script will run tests to check if your hospital systems are able to access our _**beta**_ and _**production**_ servers. Please report any errors or issues in the feedback form.
 
 This script will test access to the following:
 
