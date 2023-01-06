@@ -5,11 +5,13 @@
 - python >= 3.8.13
 - requests >= 2.28.1
 
+
+### Steps to test the connection with Wake Up Safe servers
 Clone this repository and run the following command
 ```
 python test_connection.py
 ````
-
+### Output
 You will be asked to enter your email address (to verify if the WUS email server is able to send you emails) 
 This script will test the connection to the following:
 - Wake Up Safe test website. 
